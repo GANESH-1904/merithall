@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Parent Dashboard | MeritHall Tutoring Center</title><meta name="description" content="Parent dashboard for sessions, attendance, progress and fees.">
+<link rel="icon" type="image/svg+xml" href="images/favicon.svg"><link rel="icon" type="image/png" href="images/favicon.png"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"><link rel="stylesheet" href="dashboard.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"EducationalOrganization","name":"MeritHall Tutoring Center","address":"45 Learners Road, Velachery, Chennai","telephone":"+91 98765 43210"}</script></head>
+<body data-page="dashboard">
+<div class="dash"><aside class="side" aria-label="Dashboard menu"><a class="brand" href="index.html"><img src="images/logo.png" alt="MeritHall logo"><span><b>Merit<i>Hall</i></b><small>Parent portal</small></span></a>
+<button data-p="overview"><span data-ic="home"></span>Overview</button><button data-p="book"><span data-ic="cal"></span>Book sessions</button><button data-p="attendance"><span data-ic="ok"></span>Attendance</button><button data-p="progress"><span data-ic="chart"></span>Progress reports</button><button data-p="fees"><span data-ic="wal"></span>Fees and payments</button><button data-p="messages"><span data-ic="msg"></span>Messages</button><button class="out" onclick="location.href='login.html'"><span data-ic="out"></span>Log out</button></aside>
+<div class="main"><header class="top2"><div class="tb"><div><small class="mu" id="dt"></small><h1>Parent Dashboard</h1></div>
+<div class="tools"><div class="tgrp"><div class="dw"><button class="ibtn" aria-label="Notifications" aria-haspopup="true"><span data-ic="bell"></span><em id="nb" class="bdg" hidden></em></button><div class="dd"><div class="ddh"><b>Notifications</b><button class="lk" id="nAll">Mark all read</button></div><ul id="nl"></ul></div></div><span data-tools style="display:contents"></span></div>
+<div class="dw"><button class="ibtn pf" aria-label="Profile menu" aria-haspopup="true"><span class="av">L</span><span class="pn">Lakshmi</span></button><div class="dd"><div class="ddh"><b class="un2">Lakshmi</b></div><button class="lk blk" data-act="reset">Reset demo data</button><a class="lk blk" href="login.html">Log out</a></div></div></div></div>
+<div class="hero2"><div><h2 id="wel"></h2><p id="sub"></p><div class="kids" id="kids" role="group" aria-label="Choose student"></div></div><div class="hs" id="hs" aria-live="polite"></div></div></header>
+<section class="pan" id="overview"></section><section class="pan" id="book"></section><section class="pan" id="attendance"></section><section class="pan" id="progress"></section><section class="pan" id="fees"></section><section class="pan" id="messages"></section></div></div>
+<script src="main.js"></script><script src="dashboard.js"></script></body></html>
