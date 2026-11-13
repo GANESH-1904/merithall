@@ -77,7 +77,7 @@ h1{font-size:clamp(2.2rem,5vw,3.8rem)}h2{font-size:clamp(1.7rem,3.2vw,2.5rem)}h3
 .totop.show{opacity:1;pointer-events:auto}.totop img{width:34px;height:34px}
 /* dark */
 [data-theme=dark]{--bg:#121214;--bg2:#1a1a1e;--tx:#f1eef0;--mut:#a9a5ad;--bd:#34333a;--card:#1c1c20;--s:#0c0c0e;--p:#c94b7c;--p-d:#a83a66}
-[data-theme=dark] .icn,[data-theme=dark] .ibtn img,[data-theme=dark] .soc img,[data-theme=dark] .totop img,[data-theme=dark] .pw img,[data-theme=dark] .ct img[src$="-m.png"]{filter:invert(1)}
+[data-theme=dark] .icn,[data-theme=dark] .ibtn img,[data-theme=dark] .soc img,[data-theme=dark] .totop img,[data-theme=dark] .pw img,[data-theme=dark] .ct img[data-m]{filter:invert(1)}
 [data-theme=dark] .brand b,[data-theme=dark] .fcols .tg{color:#f1eef0}[data-theme=dark] .tag,[data-theme=dark] .pill,[data-theme=dark] .nav a:hover,[data-theme=dark] .nav a.on,[data-theme=dark] .nav .nl.on,[data-theme=dark] .nav .nl:hover{background:#2c1f26;color:#f0a9c4}
 [data-theme=dark] .btn-p{color:#fff}[data-theme=dark] .btn-s{color:#f0a9c4}
 /* rtl */
